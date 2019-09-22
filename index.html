@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>Todo List</title>
+</head>
+<body>
+<div class="container">
+    <div class="action-wrapper">
+        <h1>TODO List</h1>
+        <div class="create-wrapper">
+            <input type="text" onkeypress="ifEnterSubmit(event)" placeholder="Type your todo item" class="addTodo" name="addTodo" id="add-todo">
+            <button class="submit" onclick="addToList()">Create</button>
+        </div>
+        <div class="list-wrapper">
+            <ul class="todoList">
+               
+            </ul>
+        </div>
+
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+
+</html>
